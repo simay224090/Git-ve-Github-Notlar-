@@ -1,0 +1,80 @@
+Git, dağıtık bir sürüm kontrol sistemidir ve yazılım geliştirme süreçlerinde çok yaygın olarak kullanılır. 
+
+git init:
+Yeni bir Git deposu oluşturmak için kullanılır. Bir klasörü Git deposu haline getirir.
+
+git clone:
+Varolan bir Git deposunu kopyalamak ve yerel bir kopya oluşturmak için kullanılır.
+git clone<repository-url.>
+
+git add:
+Değişiklikleri stagelamak (takip etmek) için kullanılır. Yani değişiklikleri commit etmeye hazır hale getirir.
+git add <file>
+
+
+
+git commit:
+Staged (hazır) olan değişiklikleri bir commit'e dönüştürmek için kullanılır.
+git commit -m "Commit açıklaması"
+
+
+git status:
+Çalışma dizinindeki değişiklikleri gösterir.
+
+
+git pull:
+Uzak depodan en güncel değişiklikleri çekmek için kullanılır.
+
+git push:
+Yerel deponuzdaki değişiklikleri uzak depoya göndermek için kullanılır.
+
+
+git branch:
+Branch'leri listelemek veya yeni bir branch oluşturmak için kullanılır.
+git branch
+git branch <branch-name>
+
+
+
+
+git checkout:
+Bir branch'e geçiş yapmak veya belirli bir commit'e geri dönmek için kullanılır.
+git checkout <branch-name>
+git checkout <commit-hash>
+
+
+
+git merge:
+İki branch'i birleştirmek için kullanılır.
+git merge <branch-name>
+
+
+
+
+git log:
+Commit geçmişini gösterir.
+
+
+Bu komutlar, Git'in temel işlevselliğini kapsar. Git'in daha gelişmiş özellikleri ve kullanım durumları bulunabilir, ancak bu temel komutlar genellikle günlük geliştirme işlemlerinde yeterlidir.
+
+    GitHub, Git tabanlı bir web tabanlı platformdur ve genellikle açık kaynaklı yazılım projeleri için kullanılır. İşte GitHub'un temel özellikleri:
+
+Uzak Repositories (Uzak Depolar):
+
+GitHub, Git depolarının bulut tabanlı kopyalarını barındırır.
+Projelerinizi GitHub'a yükleyebilir ve diğer geliştiricilerle paylaşabilirsiniz.
+İşbirliği ve Fork:
+
+Başka bir projeyi kopyalayabilir (fork) ve üzerinde değişiklikler yapabilirsiniz.
+Sonra bu değişiklikleri orijinal projeye geri gönderebilirsiniz.
+Issues ve Pull Requests:
+
+Projede bulunan sorunları (issues) ve çözümleri (pull requests) yönetmek için kullanılır.
+Geliştiriciler arasında iletişim ve işbirliği sağlar.
+GitHub Pages:
+
+GitHub üzerindeki depoları kullanarak basit web siteleri yayınlamanıza olanak tanır.
+Geliştirici Profili:
+
+Her kullanıcının kendi profiline sahip olduğu, katkıları ve projeleri hakkında bilgi içeren bir platformdur.
+GitHub, açık kaynaklı yazılım geliştirmeyi kolaylaştırır ve dünya genelinde birçok projenin işbirliği yapmasına imkan tanır. Hem bireysel geliştiriciler hem de büyük şirketler tarafından yaygın olarak kullanılmaktadır.
